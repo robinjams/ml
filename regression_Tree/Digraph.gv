@@ -1,0 +1,12 @@
+// test
+digraph {
+	A [label=robin]
+	B [label=company]
+	C [label=home]
+	A -> B
+	A -> C
+	subgraph location {
+		node [shape=box]
+		foo -> bar
+	}
+}
